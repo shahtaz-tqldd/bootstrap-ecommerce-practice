@@ -1,0 +1,20 @@
+.bg-panda{
+    background-color: #fceae8;
+}
+
+.categories img{
+    height: 100px;
+}
+
+.subscribe{
+    height: 350px;
+}
+
+.btn-custom{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}

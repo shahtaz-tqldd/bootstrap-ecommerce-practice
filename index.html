@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panda Ecommerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar Section -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+            <div class="container p-3">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bag">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscibe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sliders -->
+        <setion>
+            <div id="carouselExampleControls" class="carousel slide my-5" data-bs-ride="carousel">
+                <div class="carousel-inner container bg-panda p-5 rounded-4">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-7 col-12 d-flex flex-column justify-content-center">
+                                <div>
+                                    <h2>Cool Dude Headphones</h2>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quos similique ipsam
+                                        dolores, recusandae fugiat explicabo repellat reprehenderit, quam aspernatur
+                                        voluptatum deleniti, saepe corrupti architecto!</p>
+                                    <h1>$600</h1>
+                                    <div class="btn btn-custom">Buy Now >></div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-5 col-12">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100 mt-4" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-7 col-12 d-flex flex-column justify-content-center">
+                                <div>
+                                    <h2>Mega LCD TV</h2>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quos similique ipsam
+                                        dolores, recusandae fugiat explicabo repellat reprehenderit, quam aspernatur
+                                        voluptatum deleniti, saepe corrupti architecto!</p>
+                                    <h1>$720</h1>
+                                    <div class="btn btn-custom">Buy Now >></div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-5 col-12">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-7 col-12 d-flex flex-column justify-content-center">
+                                <div>
+                                    <h2>Newest XBox Player</h2>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quos similique ipsam
+                                        dolores, recusandae fugiat explicabo repellat reprehenderit, quam aspernatur
+                                        voluptatum deleniti, saepe corrupti architecto!</p>
+                                    <h1>$499</h1>
+                                    <div class="btn btn-custom">Buy Now >></div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-5 col-12">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </setion>
+    </header>
+    <main>
+        <!-- Gutter Section -->
+        <section id="categories">
+            <div class="container text-center">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div
+                            class="categories p-3 border rounded-3 bg-warning d-flex align-items-center justify-content-around">
+                            <h2 class="text-white">Watch</h2>
+                            <img src="images/categories/watch.png" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div
+                            class="categories p-3 border rounded-3 bg-success d-flex align-items-center justify-content-around">
+                            <h2 class="text-white">Bag</h2>
+                            <img src="images/categories/bag.png" />
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div
+                            class="categories p-3 border rounded-3 bg-info d-flex align-items-center justify-content-around">
+                            <h2 class="text-white">Shoes</h2>
+                            <img src="images/categories/shoes.png" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Shoes -->
+        <section id="shoes" class="py-5">
+            <div class="container">
+                <h1>Shoes</h1>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card border-0 rounded-3 shadow-lg my-3">
+                            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Nikke</h4>
+                                <h1>$160</h1>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-custom mt-5">Buy Now >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card border-0 rounded-3 shadow-lg my-3">
+                            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Alexy</h4>
+                                <h1>$120</h1>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-custom mt-5">Buy Now >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card border-0 rounded-3 shadow-lg my-3">
+                            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Topsen</h4>
+                                <h1>$180</h1>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-custom mt-5">Buy Now >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Bagpack -->
+        <section id="bag" class="py-5">
+            <div class="container">
+                <h1>Bagpack</h1>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card border-0 rounded-3 shadow-lg my-3">
+                            <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Trivia</h4>
+                                <h1>$160</h1>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-custom mt-5">Buy Now >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card border-0 rounded-3 shadow-lg my-3">
+                            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Muxia</h4>
+                                <h1>$120</h1>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-custom mt-5">Buy Now >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card border-0 rounded-3 shadow-lg my-3">
+                            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Roxen</h4>
+                                <h1>$180</h1>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-custom mt-5">Buy Now >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Subscribe -->
+        <section class="my-5" id="subscribe">
+            <div class="container rounded-3 bg-panda d-flex justify-content-center align-items-center subscribe">
+                <div>
+                    <h2>LET'S STAY IN TOUCH</h2>
+                    <p>Get updates on sales, specials and more</p>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div class="btn btn-custom mt-2">Submit</div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex justify-content-center my-3">
+        ©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
